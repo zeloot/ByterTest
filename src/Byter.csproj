@@ -9,5 +9,9 @@
     <PackageDescription>Byte parse. Convert byte to object and object to byte</PackageDescription>
     <RepositoryUrl>https://github.com/zeloot/Byter</RepositoryUrl>
   </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="dynamic" Version="1.0.0" />
+  </ItemGroup>
 
 </Project>
