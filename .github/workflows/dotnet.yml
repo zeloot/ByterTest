@@ -27,4 +27,4 @@ jobs:
     - name: PM build
       run: dotnet pack --configuration Release
     - name: PM pushing
-      run: dotnet nuget push "src/bin/Release/ByteBolt.1.0.0.nupkg"  --api-key ${{ secrets.MY_KEY }} --source "github"
+      run: dotnet nuget push "src/bin/Release/Byter.1.0.0.nupkg"  --api-key ${{ secrets.MY_KEY }} --source "github"
