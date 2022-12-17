@@ -23,7 +23,7 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: PM login
-      run: dotnet nuget add source --username alec1o --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/zeloot/index.json"
+      run: dotnet nuget add source --username alec1o --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/zeloot/Byter/index.json"
     - name: PM build
       run: dotnet pack --configuration Release
     - name: PM pushing
