@@ -7,7 +7,7 @@
     <Authors>Alec1o</Authors>
     <Company>Kezero</Company>
     <PackageDescription>Byte parse. Convert byte to object and object to byte</PackageDescription>
-    <RepositoryUrl>https://github.com/alec1o/byter</RepositoryUrl>
+    <RepositoryUrl>https://github.com/zeloot/Byter</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
